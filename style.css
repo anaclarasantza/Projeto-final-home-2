@@ -203,11 +203,12 @@ h1{
 }
 
 .box-caixas{
-    cursor:zoom-out;
+    cursor:zoom-in;
 }
 
 .box-caixas:hover {
     transform: scale(0.9);
+    transition: 0.5s;
 }
 
 
